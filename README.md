@@ -1,6 +1,6 @@
 # RPS
 Rock Paper Scissors
 
-2 modes: 
-  Random - ai picks random move.
-  Smart - ai learnes your habits and adapts. Tracks your last move, the subsiquent outcome, and the next move you made. Uses this to predict your moves and plays accordingly. 
+The ai keeps learns your play style by keeping track of: your move, the outcome, and your subsequent move. It uses this to predict your moves. It gets better over time. 
+
+The memory (a 3X3X3 array whos addresses represent your last move, the outcome, then the next) is stored in a text file. Replace it with the blank version to clear the memory. 
